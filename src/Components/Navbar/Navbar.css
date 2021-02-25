@@ -1,0 +1,16 @@
+.navbar{
+    height:70px; 
+    width: 100vw;
+    background: gray;
+    display: grid;
+    grid-template-columns: 1fr repeat(3,min-content);
+    padding: 0 60px;
+    text-align: center;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 62.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+     
+}
