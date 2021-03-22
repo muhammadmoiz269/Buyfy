@@ -1,0 +1,15 @@
+.address-form-model{
+    height: 40em;
+    width: 60em;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 3em;
+
+}
+.addressFormField{
+    display: grid;
+    grid-template-columns: 30fr 70fr;
+    column-gap: 3em;
+    margin: 2em 0em;
+    
+}

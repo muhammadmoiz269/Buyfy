@@ -1,5 +1,6 @@
 .button{
     padding: 10px 20px;
     font-family: var(--font-family-header);
-    
+    border-radius: 5px;
+    outline: none;
 }

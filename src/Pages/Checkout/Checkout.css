@@ -1,0 +1,22 @@
+.checkout-page-container{
+    font-size: 62.5%;
+    display: grid;
+    grid-template-columns: 70vw;
+    grid-template-rows: calc(100vh - var(--navBar-height));
+    /* background: lightcoral; */
+    justify-content: center;
+    background: #EEEEEE;
+    
+
+
+}
+.checkout{
+    padding: 5em 0em;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+.checkout-bottom-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+

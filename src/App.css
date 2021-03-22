@@ -14,6 +14,13 @@ a{
     --navBar-height:70px;
 
 }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+ 
+}
 .pagesContainer{
-    padding-top: var(--navBar-height);
+    /* padding-top: var(--navBar-height); */
 }

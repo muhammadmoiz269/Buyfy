@@ -1,0 +1,20 @@
+.checkout-list{
+    display: grid;
+    /* background: lightcoral; */
+    overflow-y: scroll;
+    row-gap: 1em;
+}
+.checkout-list-item-extended{
+    justify-content: center;
+    justify-items: center;
+}
+.checkout-list::-webkit-scrollbar{
+    width: 5px;
+}
+.checkout-list::-webkit-scrollbar-track{
+    background: #f1f1f1;
+
+}
+.checkout-list::-webkit-scrollbar-thumb{
+    background:gray;
+}

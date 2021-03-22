@@ -1,0 +1,26 @@
+.category_List_Item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    /* background: #ffff; */
+  justify-items: center;
+  margin-top: 12em;
+  margin-bottom: 7em;
+  column-gap: 40px;
+
+ 
+    
+
+}
+.category-text{
+    /* position: absolute;
+    top: -45%;
+    left: 0%;
+    font-size: 10em;
+    font-family: var(--font-family-header);
+    letter-spacing: 10px;
+    color:#47C1BF; */
+   
+ 
+
+}

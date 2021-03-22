@@ -1,0 +1,13 @@
+.category{
+    font-size: 62.5%;
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: minmax(calc(100vh - var(--navBar-height)),min-content);
+    /* background: lightcoral; */
+    justify-content: center;
+    background: #EEEEEE;
+    /* background: #ffffff; */
+   
+
+   
+}

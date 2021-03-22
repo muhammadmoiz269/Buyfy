@@ -1,6 +1,8 @@
 import { auth, serverTimeStamp, firestore, GoogleAuthProvider } from "../../Firebase/Firebase";
 import { SET_USER, REMOVE_USER } from "./authConstants";
 import firebase from "./../../Firebase/Firebase"
+import history from "../../history/history";
+
 
 export var setUser=(user)=>({
 
@@ -29,6 +31,8 @@ export var signup=({email,password,fullName})=> async (dispatch)=>{
             createdAt:serverTimeStamp()
         }
         await firestore.collection("users").doc(uid).set(userInfo);
+        //navigate to home page
+        history.push("/");
         
        
     } catch (error) {
@@ -40,6 +44,8 @@ export var signin=({email,password}) => async (dispatch)=>{
     try {
         //sign in user with auth
        await auth.signInWithEmailAndPassword(email,password);
+        //navigate to home page
+        history.push("/");
 
     } catch (error) {
         console.log(error)
@@ -77,6 +83,8 @@ export var SignInWithGoogle=()=> async (dispatch)=>{
         await firestore.collection("users").doc(uid).set(userInfo);
 
         }
+        //navigate to home page
+        history.push("/");
         
     } catch (error) {
         console.log(error)
